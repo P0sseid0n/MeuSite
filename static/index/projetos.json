@@ -1,0 +1,41 @@
+[
+   {
+      "image": "host-de-imagens",
+      "title": "Host de imagens",
+      "description": "Simples site de hospedagem de imagens",
+      "techs": ["HTML", "SASS", "VueJS"],
+      "github": "https://github.com/P0sseid0n/Simple-Image-Hosting"
+   },
+   {
+      "image": "notegroup",
+      "title": "Notegroup",
+      "description": "Lista de tarefas guardadas em grupos",
+      "techs": ["HTML", "SASS", "VueJS"],
+      "website": "https://notegroup.netlify.app/",
+      "github": "https://github.com/P0sseid0n/NoteGroup"
+   },
+   {
+      "image": "count-words",
+      "title": "Count words",
+      "description": "Contador de letras, palavras e linhas de um texto.",
+      "techs": ["HTML", "CSS", "VueJS"],
+      "website": "https://count-words.netlify.app/",
+      "github": "https://github.com/P0sseid0n/Count-Words"
+   },
+   {
+      "image": "mini-loja",
+      "title": "Mini loja (Front-end)",
+      "description": "Site simulando uma mini loja com sistema de carrinho.",
+      "techs": ["HTML", "CSS", "Javascript"],
+      "website": "https://miniloja-posseidon.netlify.app/",
+      "github": "https://github.com/P0sseid0n/Projeto-MiniLoja"
+   },
+   {
+      "image": "site-comercial",
+      "title": "Template de site comercial",
+      "description": "Template com base em sites comerciais, site de produtos...",
+      "techs": ["HTML", "CSS"],
+      "website": "https://paginacomercial01.netlify.app/",
+      "github": "https://github.com/P0sseid0n/Pagina-Comercial-01"
+   }
+]

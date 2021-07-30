@@ -19,22 +19,8 @@ export default {
 }
 </script>
 
-<style lang="scss">
-*{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-
-   font-family: 'Source Code Pro', monospace;
-}
-
+<style lang="scss" scoped>
 $main-color: #E94560;
-
-html, body{
-   background-color: #1A1A2E;
-
-   text-align: center;
-}
 
 h1{
    font-size: 96px;
@@ -49,6 +35,7 @@ h1{
 .container{
    margin: 0 auto;
    padding: 0 5%;
+   text-align: center;
 
    div{
       display: flex;
