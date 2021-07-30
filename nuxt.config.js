@@ -41,7 +41,7 @@ export default {
       ['nuxt-social-meta', {
          locale: 'pt_BR',
          site_name: "P0sseid0n",
-         img: "Logo-128.png",
+         img: "/Logo-128.png",
          img_size: { width: "128px", height: "128px" },
          twitter: "@p0sseid0n",
          theme_color: "#E94560"
