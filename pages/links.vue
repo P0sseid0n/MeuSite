@@ -4,8 +4,8 @@
       <h1>P0sseid0n</h1>
       <div>
          <nuxt-link to="/"><img src="/links/website.svg" />Website</nuxt-link>
-         <a href="https://twitter.com/P0sseid0n" target="_blank" rel="noopener noreferrer"><img src="/links/twitter.svg" />Twitter</a>
-         <a href="https://github.com/P0sseid0n" target="_blank" rel="noopener noreferrer"><img src="/links/github.svg" />Github</a>
+         <a href="https://twitter.com/P0sseid0n" target="_blank" rel="noopener noreferrer"><img alt="Twitter" src="/links/twitter.svg" />Twitter</a>
+         <a href="https://github.com/P0sseid0n" target="_blank" rel="noopener noreferrer"><img alt="Github" src="/links/github.svg" />Github</a>
       </div>
    </div>
 </div>
@@ -14,7 +14,10 @@
 <script>
 export default {
    head: {
-      title: 'P0sseid0n – Links'
+      title: 'P0sseid0n – Links',
+      meta: [
+         { hid: 'description', name: 'description', content: 'P0sseid0n links' }
+      ]
    },
 }
 </script>

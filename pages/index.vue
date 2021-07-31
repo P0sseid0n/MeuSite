@@ -30,7 +30,7 @@
          </header>
          <main>
             <button @click="slider.prev">
-               <img src="/index/prev.svg" alt="" class="prev">
+               <img src="/index/prev.svg" alt="Voltar" class="prev">
             </button>
                <div ref="slider" class="keen-slider">
                   <div class="keen-slider__slide" :style="{'background-image': `url(/index/Projetos/${projeto.image}.png)`}" v-for="(projeto, index) in projetos" :key="projeto.title + index">
@@ -52,7 +52,7 @@
                   </div>
                </div>
             <button @click="slider.next">
-               <img src="/index/next.svg" alt="" class="prev">
+               <img src="/index/next.svg" alt="Avançar" class="prev">
             </button>
          </main>
       </div>
@@ -151,7 +151,6 @@
          </header>
          <main>
             <div class="container">
-               <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui inventore quos totam maiores tempore ipsum, deserunt cumque accusantium, consequatur eos fuga pariatur ratione quis omnis facilis possimus voluptates architecto consequuntur!</p> -->
                <p>Olá, me chamo Matheus, tenho {{ getXpTime(10, 2004, true) }}, sou do Rio de janeiro, Brasil. Estudo programação há {{ getXpTime(7, 2020) }}, comecei no front-end mas agora estudo back-end támbem e  em poucos meses aprender desenvolvimento mobile tambem. Atualmente estou estudando apenas javascript, focado em me aprimorar ao maximo na linguaguem para depois estudar outra.</p>
                <div>
                   <a href="https://twitter.com/P0sseid0n" target="_blank" rel="noopener noreferrer">
@@ -183,7 +182,10 @@ import projetosFile from '../static/index/projetos.json'
 export default {
    scrollToTop: true,
    head: {
-      title: 'P0sseid0n'
+      title: 'P0sseid0n – Inicio',
+      meta: [
+         { hid: 'description', name: 'description', content: 'P0sseid0n portfolio - Projetos | Conhecimento | Sobre |' }
+      ]
    },
    data: () => ({
       nameVariable: 'P0sseid0n',
