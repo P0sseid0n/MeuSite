@@ -16,7 +16,7 @@ export default {
    head: {
       title: 'P0sseid0n – Links',
       meta: [
-         { hid: 'description', name: 'description', content: 'Site de links para acesso rapido as minhas redes sociais' }
+         { hid: 'description', name: 'description', content: 'Site de links para acesso rápido as minhas redes sociais. Links de acesso rápido: github, website e discord' }
       ]
    },
 }
