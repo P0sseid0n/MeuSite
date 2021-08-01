@@ -26,7 +26,7 @@
    <section id="projetos">
       <div class="container">
          <header>
-            <h1>Projetos</h1>
+            <h2>Projetos</h2>
          </header>
          <main>
             <button @click="slider.prev">
@@ -36,7 +36,7 @@
                   <div class="keen-slider__slide" :style="{'background-image': `url(/index/Projetos/${projeto.image}.png)`}" v-for="(projeto, index) in projetos" :key="projeto.title + index">
                      <div class="darken">
                         <div>
-                           <h1>{{ projeto.title }}</h1>
+                           <h2>{{ projeto.title }}</h2>
                            <p>{{ projeto.description }}</p>
                            <span v-for="(tech, index) in projeto.techs" :key="tech + index">{{tech}} </span>
                            <div>
@@ -60,7 +60,7 @@
    <section id="conhecimentos">
       <div class="container">
          <header>
-            <h1>Conhecimentos</h1>
+            <h2>Conhecimentos</h2>
          </header>
          <main>
             <div>
@@ -68,7 +68,7 @@
                   <img src="/index/conhecimentos/html-5.svg" alt="HTML5">
                </div>
                <div class="text">
-                  <h1>Html5</h1>
+                  <h2>Html5</h2>
                   <p>{{ getXpTime(7, 2020) }} de experiência</p>
                </div>
             </div>
@@ -77,7 +77,7 @@
                   <img src="/index/conhecimentos/css3.svg" alt="CSS3">
                </div>
                <div class="text">
-                  <h1>Css3</h1>
+                  <h2>Css3</h2>
                   <p>{{ getXpTime(7, 2020) }} de experiência</p>
                </div>
             </div>
@@ -87,7 +87,7 @@
                    alt="Javascript">
                </div>
                <div class="text">
-                  <h1>Javascript</h1>
+                  <h2>Javascript</h2>
                   <p>{{ getXpTime(8, 2020) }} de experiência</p>
                </div>
             </div>
@@ -97,7 +97,7 @@
                    alt="Node.js">
                </div>
                <div class="text">
-                  <h1>Node.js</h1>
+                  <h2>Node.js</h2>
                   <p>{{ getXpTime(10, 2020) }} de experiência</p>
                </div>
             </div>
@@ -107,7 +107,7 @@
                    alt="MySQL">
                </div>
                <div class="text">
-                  <h1>MySQL</h1>
+                  <h2>MySQL</h2>
                   <p>{{ getXpTime(7, 2021) }} de experiência</p>
                </div>
             </div>
@@ -117,7 +117,7 @@
                    alt="Bootsrap">
                </div>
                <div class="text">
-                  <h1>Bootstrap</h1>
+                  <h2>Bootstrap</h2>
                   <p>{{ getXpTime(12, 2020) }} de experiência</p>
                </div>
             </div>
@@ -127,7 +127,7 @@
                    alt="Vuejs">
                </div>
                <div class="text">
-                  <h1>Vue.js</h1>
+                  <h2>Vue.js</h2>
                   <p>{{ getXpTime(11, 2020) }} de experiência</p>
                </div>
             </div>
@@ -137,7 +137,7 @@
                    alt="MongoDB">
                </div>
                <div class="text">
-                  <h1>MongoDB</h1>
+                  <h2>MongoDB</h2>
                   <p>{{ getXpTime(2, 2021) }} de experiência</p>
                </div>
             </div>
@@ -147,7 +147,7 @@
    <section id="sobre">
       <div class="container">
          <header>
-            <h1>Sobre</h1>
+            <h2>Sobre</h2>
          </header>
          <main>
             <div class="container">
@@ -184,7 +184,7 @@ export default {
    head: {
       title: 'P0sseid0n – Inicio',
       meta: [
-         { hid: 'description', name: 'description', content: 'P0sseid0n portfolio - Projetos | Conhecimento | Sobre |' }
+         { hid: 'description', name: 'description', content: 'Olá, me chamo Matheus sou do Rio de janeiro, Brasil. Sou estudante de programação, atualmente focado em programação web.' }
       ]
    },
    data: () => ({
@@ -393,12 +393,12 @@ $main-color: #E94560;
    text-align: center;
    .container > header{
       font-size: 32px;
-      // line-height: 34px;
       line-height: 105%;
 
       border-bottom: 6px solid $main-color;
       display: inline-block;
       margin-bottom: 64px;
+
    }
 
    &:not(#inicio){
@@ -651,12 +651,12 @@ $main-color: #E94560;
             opacity: 0;
          }
 
-         h1{
+         h2{
             font-size: 22px;
          }
 
          p{
-            font-size: 18px;
+            font-size: 17px;
          }
 
          &:hover{
@@ -693,7 +693,7 @@ $main-color: #E94560;
 
       > a{
          display: inline-block;
-         margin-top: 32px;
+         margin-top: 48px;
          font-size: 16px;
       }
    }
