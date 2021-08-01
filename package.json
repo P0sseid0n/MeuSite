@@ -12,6 +12,7 @@
     "@egjs/vue-flicking": "^4.1.2",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/google-fonts": "^1.3.0",
+    "@nuxtjs/robots": "^2.5.0",
     "core-js": "^3.15.1",
     "keen-slider": "^5.5.1",
     "luxon": "^2.0.1",

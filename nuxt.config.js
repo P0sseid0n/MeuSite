@@ -37,6 +37,7 @@ export default {
       // https://go.nuxtjs.dev/axios
       '@nuxtjs/axios',
       'vue-scrollto/nuxt',
+      '@nuxtjs/robots',
       ['nuxt-social-meta', {
          locale: 'pt_BR',
          site_name: "P0sseid0n",
