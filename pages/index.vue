@@ -7,8 +7,8 @@
       <button v-scroll-to="'#projetos'" :class="{'active': userPosition == 1}">
          <span>Projetos</span>
       </button>
-      <button v-scroll-to="'#conhecimentos'" :class="{'active': userPosition == 2}">
-         <span>Conhecimentos</span>
+      <button v-scroll-to="'#habilidades'" :class="{'active': userPosition == 2}">
+         <span>Habilidades</span>
       </button>
       <button v-scroll-to="'#sobre'" :class="{'active': userPosition == 3}">
          <span>Sobre</span>
@@ -57,15 +57,15 @@
          </main>
       </div>
    </section>
-   <section id="conhecimentos">
+   <section id="habilidades">
       <div class="container">
          <header>
-            <h2>Conhecimentos</h2>
+            <h2>Habilidades</h2>
          </header>
          <main>
             <div>
                <div class="image">
-                  <img src="/index/conhecimentos/html-5.svg" alt="HTML5">
+                  <img src="/index/habilidades/html-5.svg" alt="HTML5">
                </div>
                <div class="text">
                   <h2>Html5</h2>
@@ -74,7 +74,7 @@
             </div>
             <div>
                <div class="image">
-                  <img src="/index/conhecimentos/css3.svg" alt="CSS3">
+                  <img src="/index/habilidades/css3.svg" alt="CSS3">
                </div>
                <div class="text">
                   <h2>Css3</h2>
@@ -83,7 +83,7 @@
             </div>
             <div>
                <div class="image">
-                  <img src="/index/conhecimentos/javascript.svg"
+                  <img src="/index/habilidades/javascript.svg"
                    alt="Javascript">
                </div>
                <div class="text">
@@ -93,7 +93,7 @@
             </div>
             <div>
                <div class="image">
-                  <img src="/index/conhecimentos/node-js.png"
+                  <img src="/index/habilidades/node-js.png"
                    alt="Node.js">
                </div>
                <div class="text">
@@ -103,7 +103,7 @@
             </div>
             <div>
                <div class="image">
-                  <img src="/index/conhecimentos/mysql.svg"
+                  <img src="/index/habilidades/mysql.svg"
                    alt="MySQL">
                </div>
                <div class="text">
@@ -113,7 +113,7 @@
             </div>
             <div>
                <div class="image">
-                  <img src="/index/conhecimentos/bootstrap.svg"
+                  <img src="/index/habilidades/bootstrap.svg"
                    alt="Bootsrap">
                </div>
                <div class="text">
@@ -123,7 +123,7 @@
             </div>
             <div>
                <div class="image">
-                  <img src="/index/conhecimentos/vuejs.svg"
+                  <img src="/index/habilidades/vuejs.svg"
                    alt="Vuejs">
                </div>
                <div class="text">
@@ -133,7 +133,7 @@
             </div>
             <div>
                <div class="image">
-                  <img src="/index/conhecimentos/mongodb.svg"
+                  <img src="/index/habilidades/mongodb.svg"
                    alt="MongoDB">
                </div>
                <div class="text">
@@ -262,7 +262,7 @@ export default {
       getCurrentY(){
          if(window.scrollY > document.querySelector('#sobre').offsetTop - 300) {
             this.userPosition = 3
-         } else if(window.scrollY > document.querySelector('#conhecimentos').offsetTop - 300) {
+         } else if(window.scrollY > document.querySelector('#habilidades').offsetTop - 300) {
             this.userPosition = 2
          } else if (window.scrollY > document.querySelector('#projetos').offsetTop - 300) {
             this.userPosition = 1
@@ -622,7 +622,7 @@ $main-color: #E94560;
    }
 }
 
-#conhecimentos{
+#habilidades{
    main{
       display: flex;
       justify-content: center;
@@ -765,7 +765,7 @@ $main-color: #E94560;
       }
    }
 
-   #conhecimentos{
+   #habilidades{
       main{
          user-select: none;
       }
